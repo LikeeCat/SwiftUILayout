@@ -7,77 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC0425C92935F527000464FB /* FrameUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425A12935F526000464FB /* FrameUIDemo.swift */; };
-		FC0425CA2935F527000464FB /* FixedSizePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425A32935F526000464FB /* FixedSizePage.swift */; };
-		FC0425CB2935F527000464FB /* LayoutPriorityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425A42935F526000464FB /* LayoutPriorityPage.swift */; };
-		FC0425CC2935F527000464FB /* HiddenPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425A52935F526000464FB /* HiddenPage.swift */; };
-		FC0425CD2935F527000464FB /* OpacityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425A62935F526000464FB /* OpacityPage.swift */; };
-		FC0425CE2935F527000464FB /* ZIndexPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425A72935F526000464FB /* ZIndexPage.swift */; };
-		FC0425CF2935F527000464FB /* PositionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425A92935F526000464FB /* PositionPage.swift */; };
-		FC0425D02935F527000464FB /* CoordinateSpacePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425AA2935F526000464FB /* CoordinateSpacePage.swift */; };
-		FC0425D12935F527000464FB /* OffsetPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425AB2935F526000464FB /* OffsetPage.swift */; };
-		FC0425D22935F527000464FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0425AC2935F526000464FB /* Assets.xcassets */; };
-		FC0425D32935F527000464FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0425AE2935F526000464FB /* Preview Assets.xcassets */; };
-		FC0425D42935F527000464FB /* PageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425AF2935F526000464FB /* PageRow.swift */; };
-		FC0425D52935F527000464FB /* SwiftUILayoutGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425B02935F526000464FB /* SwiftUILayoutGuideApp.swift */; };
-		FC0425D62935F527000464FB /* AlignmentLastBaseLinePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425B22935F526000464FB /* AlignmentLastBaseLinePage.swift */; };
-		FC0425D72935F527000464FB /* AlignmentInStackPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425B32935F526000464FB /* AlignmentInStackPage.swift */; };
-		FC0425D82935F527000464FB /* AlignmentTopPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425B42935F526000464FB /* AlignmentTopPage.swift */; };
-		FC0425D92935F527000464FB /* AlignmentGuideHorizontalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425B52935F526000464FB /* AlignmentGuideHorizontalPage.swift */; };
-		FC0425DA2935F527000464FB /* AlignmentMiddlePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425B62935F526000464FB /* AlignmentMiddlePage.swift */; };
-		FC0425DB2935F527000464FB /* AlignmentBottomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425B72935F526000464FB /* AlignmentBottomPage.swift */; };
-		FC0425DC2935F527000464FB /* AlignmentFirstBaseLinePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425B82935F526000464FB /* AlignmentFirstBaseLinePage.swift */; };
-		FC0425DD2935F527000464FB /* AlignmentAcrossStackPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425B92935F526000464FB /* AlignmentAcrossStackPage.swift */; };
-		FC0425DE2935F527000464FB /* AlignmentGuideVerticalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425BA2935F526000464FB /* AlignmentGuideVerticalPage.swift */; };
-		FC0425DF2935F527000464FB /* PaddingEdgePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425BC2935F526000464FB /* PaddingEdgePage.swift */; };
-		FC0425E02935F527000464FB /* PaddingEdgeInsetsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425BD2935F526000464FB /* PaddingEdgeInsetsPage.swift */; };
-		FC0425E12935F527000464FB /* ScenePaddingEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425BE2935F526000464FB /* ScenePaddingEdge.swift */; };
-		FC0425E22935F527000464FB /* PaddingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425BF2935F526000464FB /* PaddingPage.swift */; };
-		FC0425E32935F527000464FB /* ListRowInsetsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425C02935F526000464FB /* ListRowInsetsPage.swift */; };
-		FC0425E42935F527000464FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425C22935F526000464FB /* ContentView.swift */; };
-		FC0425E52935F527000464FB /* AlignmentGalleryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425C32935F526000464FB /* AlignmentGalleryPage.swift */; };
-		FC0425E62935F527000464FB /* GridCellColumnsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425C52935F526000464FB /* GridCellColumnsPage.swift */; };
-		FC0425E72935F527000464FB /* GridCellUnsizedAxesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425C62935F526000464FB /* GridCellUnsizedAxesPage.swift */; };
-		FC0425E82935F527000464FB /* GridColumnAlignmentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425C72935F526000464FB /* GridColumnAlignmentPage.swift */; };
-		FC0425E92935F527000464FB /* GridCellAchorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0425C82935F526000464FB /* GridCellAchorPage.swift */; };
+		FCD1E033293606B600B62149 /* FrameUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E00B293606B500B62149 /* FrameUIDemo.swift */; };
+		FCD1E034293606B600B62149 /* FixedSizePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E00D293606B500B62149 /* FixedSizePage.swift */; };
+		FCD1E035293606B600B62149 /* LayoutPriorityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E00E293606B500B62149 /* LayoutPriorityPage.swift */; };
+		FCD1E036293606B600B62149 /* HiddenPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E00F293606B500B62149 /* HiddenPage.swift */; };
+		FCD1E037293606B600B62149 /* OpacityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E010293606B500B62149 /* OpacityPage.swift */; };
+		FCD1E038293606B600B62149 /* ZIndexPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E011293606B500B62149 /* ZIndexPage.swift */; };
+		FCD1E039293606B600B62149 /* PositionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E013293606B500B62149 /* PositionPage.swift */; };
+		FCD1E03A293606B600B62149 /* CoordinateSpacePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E014293606B500B62149 /* CoordinateSpacePage.swift */; };
+		FCD1E03B293606B600B62149 /* OffsetPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E015293606B500B62149 /* OffsetPage.swift */; };
+		FCD1E03C293606B600B62149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD1E016293606B500B62149 /* Assets.xcassets */; };
+		FCD1E03D293606B600B62149 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD1E018293606B500B62149 /* Preview Assets.xcassets */; };
+		FCD1E03E293606B600B62149 /* PageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E019293606B500B62149 /* PageRow.swift */; };
+		FCD1E03F293606B600B62149 /* SwiftUILayoutGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E01A293606B500B62149 /* SwiftUILayoutGuideApp.swift */; };
+		FCD1E040293606B600B62149 /* AlignmentLastBaseLinePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E01C293606B500B62149 /* AlignmentLastBaseLinePage.swift */; };
+		FCD1E041293606B600B62149 /* AlignmentInStackPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E01D293606B500B62149 /* AlignmentInStackPage.swift */; };
+		FCD1E042293606B600B62149 /* AlignmentTopPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E01E293606B500B62149 /* AlignmentTopPage.swift */; };
+		FCD1E043293606B600B62149 /* AlignmentGuideHorizontalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E01F293606B500B62149 /* AlignmentGuideHorizontalPage.swift */; };
+		FCD1E044293606B600B62149 /* AlignmentMiddlePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E020293606B500B62149 /* AlignmentMiddlePage.swift */; };
+		FCD1E045293606B600B62149 /* AlignmentBottomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E021293606B500B62149 /* AlignmentBottomPage.swift */; };
+		FCD1E046293606B600B62149 /* AlignmentFirstBaseLinePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E022293606B500B62149 /* AlignmentFirstBaseLinePage.swift */; };
+		FCD1E047293606B600B62149 /* AlignmentAcrossStackPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E023293606B500B62149 /* AlignmentAcrossStackPage.swift */; };
+		FCD1E048293606B600B62149 /* AlignmentGuideVerticalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E024293606B500B62149 /* AlignmentGuideVerticalPage.swift */; };
+		FCD1E049293606B600B62149 /* PaddingEdgePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E026293606B500B62149 /* PaddingEdgePage.swift */; };
+		FCD1E04A293606B600B62149 /* PaddingEdgeInsetsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E027293606B500B62149 /* PaddingEdgeInsetsPage.swift */; };
+		FCD1E04B293606B600B62149 /* ScenePaddingEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E028293606B500B62149 /* ScenePaddingEdge.swift */; };
+		FCD1E04C293606B600B62149 /* PaddingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E029293606B500B62149 /* PaddingPage.swift */; };
+		FCD1E04D293606B600B62149 /* ListRowInsetsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E02A293606B500B62149 /* ListRowInsetsPage.swift */; };
+		FCD1E04E293606B600B62149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E02C293606B500B62149 /* ContentView.swift */; };
+		FCD1E04F293606B600B62149 /* AlignmentGalleryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E02D293606B500B62149 /* AlignmentGalleryPage.swift */; };
+		FCD1E050293606B600B62149 /* GridCellColumnsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E02F293606B500B62149 /* GridCellColumnsPage.swift */; };
+		FCD1E051293606B600B62149 /* GridCellUnsizedAxesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E030293606B500B62149 /* GridCellUnsizedAxesPage.swift */; };
+		FCD1E052293606B600B62149 /* GridColumnAlignmentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E031293606B500B62149 /* GridColumnAlignmentPage.swift */; };
+		FCD1E053293606B600B62149 /* GridCellAchorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E032293606B500B62149 /* GridCellAchorPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC0425A12935F526000464FB /* FrameUIDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameUIDemo.swift; sourceTree = "<group>"; };
-		FC0425A32935F526000464FB /* FixedSizePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedSizePage.swift; sourceTree = "<group>"; };
-		FC0425A42935F526000464FB /* LayoutPriorityPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutPriorityPage.swift; sourceTree = "<group>"; };
-		FC0425A52935F526000464FB /* HiddenPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiddenPage.swift; sourceTree = "<group>"; };
-		FC0425A62935F526000464FB /* OpacityPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityPage.swift; sourceTree = "<group>"; };
-		FC0425A72935F526000464FB /* ZIndexPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZIndexPage.swift; sourceTree = "<group>"; };
-		FC0425A92935F526000464FB /* PositionPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionPage.swift; sourceTree = "<group>"; };
-		FC0425AA2935F526000464FB /* CoordinateSpacePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateSpacePage.swift; sourceTree = "<group>"; };
-		FC0425AB2935F526000464FB /* OffsetPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffsetPage.swift; sourceTree = "<group>"; };
-		FC0425AC2935F526000464FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FC0425AE2935F526000464FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FC0425AF2935F526000464FB /* PageRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageRow.swift; sourceTree = "<group>"; };
-		FC0425B02935F526000464FB /* SwiftUILayoutGuideApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUILayoutGuideApp.swift; sourceTree = "<group>"; };
-		FC0425B22935F526000464FB /* AlignmentLastBaseLinePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentLastBaseLinePage.swift; sourceTree = "<group>"; };
-		FC0425B32935F526000464FB /* AlignmentInStackPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentInStackPage.swift; sourceTree = "<group>"; };
-		FC0425B42935F526000464FB /* AlignmentTopPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentTopPage.swift; sourceTree = "<group>"; };
-		FC0425B52935F526000464FB /* AlignmentGuideHorizontalPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentGuideHorizontalPage.swift; sourceTree = "<group>"; };
-		FC0425B62935F526000464FB /* AlignmentMiddlePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentMiddlePage.swift; sourceTree = "<group>"; };
-		FC0425B72935F526000464FB /* AlignmentBottomPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentBottomPage.swift; sourceTree = "<group>"; };
-		FC0425B82935F526000464FB /* AlignmentFirstBaseLinePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentFirstBaseLinePage.swift; sourceTree = "<group>"; };
-		FC0425B92935F526000464FB /* AlignmentAcrossStackPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentAcrossStackPage.swift; sourceTree = "<group>"; };
-		FC0425BA2935F526000464FB /* AlignmentGuideVerticalPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentGuideVerticalPage.swift; sourceTree = "<group>"; };
-		FC0425BC2935F526000464FB /* PaddingEdgePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingEdgePage.swift; sourceTree = "<group>"; };
-		FC0425BD2935F526000464FB /* PaddingEdgeInsetsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingEdgeInsetsPage.swift; sourceTree = "<group>"; };
-		FC0425BE2935F526000464FB /* ScenePaddingEdge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenePaddingEdge.swift; sourceTree = "<group>"; };
-		FC0425BF2935F526000464FB /* PaddingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingPage.swift; sourceTree = "<group>"; };
-		FC0425C02935F526000464FB /* ListRowInsetsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRowInsetsPage.swift; sourceTree = "<group>"; };
-		FC0425C12935F526000464FB /* SwiftUILayoutGuide.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = SwiftUILayoutGuide.entitlements; sourceTree = "<group>"; };
-		FC0425C22935F526000464FB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FC0425C32935F526000464FB /* AlignmentGalleryPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentGalleryPage.swift; sourceTree = "<group>"; };
-		FC0425C52935F526000464FB /* GridCellColumnsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCellColumnsPage.swift; sourceTree = "<group>"; };
-		FC0425C62935F526000464FB /* GridCellUnsizedAxesPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCellUnsizedAxesPage.swift; sourceTree = "<group>"; };
-		FC0425C72935F526000464FB /* GridColumnAlignmentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridColumnAlignmentPage.swift; sourceTree = "<group>"; };
-		FC0425C82935F526000464FB /* GridCellAchorPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCellAchorPage.swift; sourceTree = "<group>"; };
 		FC23B4372934777B001E20ED /* SwiftUILayoutGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILayoutGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD1E00B293606B500B62149 /* FrameUIDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameUIDemo.swift; sourceTree = "<group>"; };
+		FCD1E00D293606B500B62149 /* FixedSizePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedSizePage.swift; sourceTree = "<group>"; };
+		FCD1E00E293606B500B62149 /* LayoutPriorityPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutPriorityPage.swift; sourceTree = "<group>"; };
+		FCD1E00F293606B500B62149 /* HiddenPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiddenPage.swift; sourceTree = "<group>"; };
+		FCD1E010293606B500B62149 /* OpacityPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityPage.swift; sourceTree = "<group>"; };
+		FCD1E011293606B500B62149 /* ZIndexPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZIndexPage.swift; sourceTree = "<group>"; };
+		FCD1E013293606B500B62149 /* PositionPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionPage.swift; sourceTree = "<group>"; };
+		FCD1E014293606B500B62149 /* CoordinateSpacePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinateSpacePage.swift; sourceTree = "<group>"; };
+		FCD1E015293606B500B62149 /* OffsetPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffsetPage.swift; sourceTree = "<group>"; };
+		FCD1E016293606B500B62149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCD1E018293606B500B62149 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCD1E019293606B500B62149 /* PageRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageRow.swift; sourceTree = "<group>"; };
+		FCD1E01A293606B500B62149 /* SwiftUILayoutGuideApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUILayoutGuideApp.swift; sourceTree = "<group>"; };
+		FCD1E01C293606B500B62149 /* AlignmentLastBaseLinePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentLastBaseLinePage.swift; sourceTree = "<group>"; };
+		FCD1E01D293606B500B62149 /* AlignmentInStackPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentInStackPage.swift; sourceTree = "<group>"; };
+		FCD1E01E293606B500B62149 /* AlignmentTopPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentTopPage.swift; sourceTree = "<group>"; };
+		FCD1E01F293606B500B62149 /* AlignmentGuideHorizontalPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentGuideHorizontalPage.swift; sourceTree = "<group>"; };
+		FCD1E020293606B500B62149 /* AlignmentMiddlePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentMiddlePage.swift; sourceTree = "<group>"; };
+		FCD1E021293606B500B62149 /* AlignmentBottomPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentBottomPage.swift; sourceTree = "<group>"; };
+		FCD1E022293606B500B62149 /* AlignmentFirstBaseLinePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentFirstBaseLinePage.swift; sourceTree = "<group>"; };
+		FCD1E023293606B500B62149 /* AlignmentAcrossStackPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentAcrossStackPage.swift; sourceTree = "<group>"; };
+		FCD1E024293606B500B62149 /* AlignmentGuideVerticalPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentGuideVerticalPage.swift; sourceTree = "<group>"; };
+		FCD1E026293606B500B62149 /* PaddingEdgePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingEdgePage.swift; sourceTree = "<group>"; };
+		FCD1E027293606B500B62149 /* PaddingEdgeInsetsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingEdgeInsetsPage.swift; sourceTree = "<group>"; };
+		FCD1E028293606B500B62149 /* ScenePaddingEdge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenePaddingEdge.swift; sourceTree = "<group>"; };
+		FCD1E029293606B500B62149 /* PaddingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingPage.swift; sourceTree = "<group>"; };
+		FCD1E02A293606B500B62149 /* ListRowInsetsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRowInsetsPage.swift; sourceTree = "<group>"; };
+		FCD1E02B293606B500B62149 /* SwiftUILayoutGuide.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = SwiftUILayoutGuide.entitlements; sourceTree = "<group>"; };
+		FCD1E02C293606B500B62149 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCD1E02D293606B500B62149 /* AlignmentGalleryPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentGalleryPage.swift; sourceTree = "<group>"; };
+		FCD1E02F293606B500B62149 /* GridCellColumnsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCellColumnsPage.swift; sourceTree = "<group>"; };
+		FCD1E030293606B500B62149 /* GridCellUnsizedAxesPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCellUnsizedAxesPage.swift; sourceTree = "<group>"; };
+		FCD1E031293606B500B62149 /* GridColumnAlignmentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridColumnAlignmentPage.swift; sourceTree = "<group>"; };
+		FCD1E032293606B500B62149 /* GridCellAchorPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCellAchorPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,99 +91,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FC0425A02935F526000464FB /* SwiftUILayoutGuide */ = {
-			isa = PBXGroup;
-			children = (
-				FC0425A12935F526000464FB /* FrameUIDemo.swift */,
-				FC0425A22935F526000464FB /* Layout */,
-				FC0425A82935F526000464FB /* Position */,
-				FC0425AC2935F526000464FB /* Assets.xcassets */,
-				FC0425AD2935F526000464FB /* Preview Content */,
-				FC0425AF2935F526000464FB /* PageRow.swift */,
-				FC0425B02935F526000464FB /* SwiftUILayoutGuideApp.swift */,
-				FC0425B12935F526000464FB /* Alignment */,
-				FC0425BB2935F526000464FB /* Padding */,
-				FC0425C12935F526000464FB /* SwiftUILayoutGuide.entitlements */,
-				FC0425C22935F526000464FB /* ContentView.swift */,
-				FC0425C32935F526000464FB /* AlignmentGalleryPage.swift */,
-				FC0425C42935F526000464FB /* Grid */,
-			);
-			path = SwiftUILayoutGuide;
-			sourceTree = "<group>";
-		};
-		FC0425A22935F526000464FB /* Layout */ = {
-			isa = PBXGroup;
-			children = (
-				FC0425A32935F526000464FB /* FixedSizePage.swift */,
-				FC0425A42935F526000464FB /* LayoutPriorityPage.swift */,
-				FC0425A52935F526000464FB /* HiddenPage.swift */,
-				FC0425A62935F526000464FB /* OpacityPage.swift */,
-				FC0425A72935F526000464FB /* ZIndexPage.swift */,
-			);
-			path = Layout;
-			sourceTree = "<group>";
-		};
-		FC0425A82935F526000464FB /* Position */ = {
-			isa = PBXGroup;
-			children = (
-				FC0425A92935F526000464FB /* PositionPage.swift */,
-				FC0425AA2935F526000464FB /* CoordinateSpacePage.swift */,
-				FC0425AB2935F526000464FB /* OffsetPage.swift */,
-			);
-			path = Position;
-			sourceTree = "<group>";
-		};
-		FC0425AD2935F526000464FB /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				FC0425AE2935F526000464FB /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		FC0425B12935F526000464FB /* Alignment */ = {
-			isa = PBXGroup;
-			children = (
-				FC0425B22935F526000464FB /* AlignmentLastBaseLinePage.swift */,
-				FC0425B32935F526000464FB /* AlignmentInStackPage.swift */,
-				FC0425B42935F526000464FB /* AlignmentTopPage.swift */,
-				FC0425B52935F526000464FB /* AlignmentGuideHorizontalPage.swift */,
-				FC0425B62935F526000464FB /* AlignmentMiddlePage.swift */,
-				FC0425B72935F526000464FB /* AlignmentBottomPage.swift */,
-				FC0425B82935F526000464FB /* AlignmentFirstBaseLinePage.swift */,
-				FC0425B92935F526000464FB /* AlignmentAcrossStackPage.swift */,
-				FC0425BA2935F526000464FB /* AlignmentGuideVerticalPage.swift */,
-			);
-			path = Alignment;
-			sourceTree = "<group>";
-		};
-		FC0425BB2935F526000464FB /* Padding */ = {
-			isa = PBXGroup;
-			children = (
-				FC0425BC2935F526000464FB /* PaddingEdgePage.swift */,
-				FC0425BD2935F526000464FB /* PaddingEdgeInsetsPage.swift */,
-				FC0425BE2935F526000464FB /* ScenePaddingEdge.swift */,
-				FC0425BF2935F526000464FB /* PaddingPage.swift */,
-				FC0425C02935F526000464FB /* ListRowInsetsPage.swift */,
-			);
-			path = Padding;
-			sourceTree = "<group>";
-		};
-		FC0425C42935F526000464FB /* Grid */ = {
-			isa = PBXGroup;
-			children = (
-				FC0425C52935F526000464FB /* GridCellColumnsPage.swift */,
-				FC0425C62935F526000464FB /* GridCellUnsizedAxesPage.swift */,
-				FC0425C72935F526000464FB /* GridColumnAlignmentPage.swift */,
-				FC0425C82935F526000464FB /* GridCellAchorPage.swift */,
-			);
-			path = Grid;
-			sourceTree = "<group>";
-		};
 		FC23B42E2934777B001E20ED = {
 			isa = PBXGroup;
 			children = (
-				FC0425A02935F526000464FB /* SwiftUILayoutGuide */,
+				FCD1E00A293606B500B62149 /* SwiftUILayoutGuide */,
 				FC23B4382934777B001E20ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -194,6 +105,103 @@
 				FC23B4372934777B001E20ED /* SwiftUILayoutGuide.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD1E00A293606B500B62149 /* SwiftUILayoutGuide */ = {
+			isa = PBXGroup;
+			children = (
+				FCD1E01B293606B500B62149 /* Alignment */,
+				FCD1E02E293606B500B62149 /* Grid */,
+				FCD1E0542936070B00B62149 /* LayerOrder */,
+				FCD1E00C293606B500B62149 /* Size */,
+				FCD1E025293606B500B62149 /* Padding */,
+				FCD1E012293606B500B62149 /* Position */,
+				FCD1E016293606B500B62149 /* Assets.xcassets */,
+				FCD1E017293606B500B62149 /* Preview Content */,
+				FCD1E019293606B500B62149 /* PageRow.swift */,
+				FCD1E01A293606B500B62149 /* SwiftUILayoutGuideApp.swift */,
+				FCD1E02B293606B500B62149 /* SwiftUILayoutGuide.entitlements */,
+				FCD1E02C293606B500B62149 /* ContentView.swift */,
+			);
+			path = SwiftUILayoutGuide;
+			sourceTree = "<group>";
+		};
+		FCD1E00C293606B500B62149 /* Size */ = {
+			isa = PBXGroup;
+			children = (
+				FCD1E00B293606B500B62149 /* FrameUIDemo.swift */,
+				FCD1E00D293606B500B62149 /* FixedSizePage.swift */,
+				FCD1E00E293606B500B62149 /* LayoutPriorityPage.swift */,
+				FCD1E00F293606B500B62149 /* HiddenPage.swift */,
+				FCD1E010293606B500B62149 /* OpacityPage.swift */,
+			);
+			path = Size;
+			sourceTree = "<group>";
+		};
+		FCD1E012293606B500B62149 /* Position */ = {
+			isa = PBXGroup;
+			children = (
+				FCD1E013293606B500B62149 /* PositionPage.swift */,
+				FCD1E014293606B500B62149 /* CoordinateSpacePage.swift */,
+				FCD1E015293606B500B62149 /* OffsetPage.swift */,
+			);
+			path = Position;
+			sourceTree = "<group>";
+		};
+		FCD1E017293606B500B62149 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCD1E018293606B500B62149 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCD1E01B293606B500B62149 /* Alignment */ = {
+			isa = PBXGroup;
+			children = (
+				FCD1E02D293606B500B62149 /* AlignmentGalleryPage.swift */,
+				FCD1E01C293606B500B62149 /* AlignmentLastBaseLinePage.swift */,
+				FCD1E01D293606B500B62149 /* AlignmentInStackPage.swift */,
+				FCD1E01E293606B500B62149 /* AlignmentTopPage.swift */,
+				FCD1E01F293606B500B62149 /* AlignmentGuideHorizontalPage.swift */,
+				FCD1E020293606B500B62149 /* AlignmentMiddlePage.swift */,
+				FCD1E021293606B500B62149 /* AlignmentBottomPage.swift */,
+				FCD1E022293606B500B62149 /* AlignmentFirstBaseLinePage.swift */,
+				FCD1E023293606B500B62149 /* AlignmentAcrossStackPage.swift */,
+				FCD1E024293606B500B62149 /* AlignmentGuideVerticalPage.swift */,
+			);
+			path = Alignment;
+			sourceTree = "<group>";
+		};
+		FCD1E025293606B500B62149 /* Padding */ = {
+			isa = PBXGroup;
+			children = (
+				FCD1E026293606B500B62149 /* PaddingEdgePage.swift */,
+				FCD1E027293606B500B62149 /* PaddingEdgeInsetsPage.swift */,
+				FCD1E028293606B500B62149 /* ScenePaddingEdge.swift */,
+				FCD1E029293606B500B62149 /* PaddingPage.swift */,
+				FCD1E02A293606B500B62149 /* ListRowInsetsPage.swift */,
+			);
+			path = Padding;
+			sourceTree = "<group>";
+		};
+		FCD1E02E293606B500B62149 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				FCD1E02F293606B500B62149 /* GridCellColumnsPage.swift */,
+				FCD1E030293606B500B62149 /* GridCellUnsizedAxesPage.swift */,
+				FCD1E031293606B500B62149 /* GridColumnAlignmentPage.swift */,
+				FCD1E032293606B500B62149 /* GridCellAchorPage.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		FCD1E0542936070B00B62149 /* LayerOrder */ = {
+			isa = PBXGroup;
+			children = (
+				FCD1E011293606B500B62149 /* ZIndexPage.swift */,
+			);
+			path = LayerOrder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,8 +262,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC0425D32935F527000464FB /* Preview Assets.xcassets in Resources */,
-				FC0425D22935F527000464FB /* Assets.xcassets in Resources */,
+				FCD1E03D293606B600B62149 /* Preview Assets.xcassets in Resources */,
+				FCD1E03C293606B600B62149 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,37 +274,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC0425E92935F527000464FB /* GridCellAchorPage.swift in Sources */,
-				FC0425E32935F527000464FB /* ListRowInsetsPage.swift in Sources */,
-				FC0425CC2935F527000464FB /* HiddenPage.swift in Sources */,
-				FC0425D42935F527000464FB /* PageRow.swift in Sources */,
-				FC0425CB2935F527000464FB /* LayoutPriorityPage.swift in Sources */,
-				FC0425CE2935F527000464FB /* ZIndexPage.swift in Sources */,
-				FC0425CD2935F527000464FB /* OpacityPage.swift in Sources */,
-				FC0425E02935F527000464FB /* PaddingEdgeInsetsPage.swift in Sources */,
-				FC0425DF2935F527000464FB /* PaddingEdgePage.swift in Sources */,
-				FC0425DB2935F527000464FB /* AlignmentBottomPage.swift in Sources */,
-				FC0425D62935F527000464FB /* AlignmentLastBaseLinePage.swift in Sources */,
-				FC0425E42935F527000464FB /* ContentView.swift in Sources */,
-				FC0425D52935F527000464FB /* SwiftUILayoutGuideApp.swift in Sources */,
-				FC0425CF2935F527000464FB /* PositionPage.swift in Sources */,
-				FC0425D82935F527000464FB /* AlignmentTopPage.swift in Sources */,
-				FC0425E82935F527000464FB /* GridColumnAlignmentPage.swift in Sources */,
-				FC0425E52935F527000464FB /* AlignmentGalleryPage.swift in Sources */,
-				FC0425DC2935F527000464FB /* AlignmentFirstBaseLinePage.swift in Sources */,
-				FC0425D72935F527000464FB /* AlignmentInStackPage.swift in Sources */,
-				FC0425D02935F527000464FB /* CoordinateSpacePage.swift in Sources */,
-				FC0425E12935F527000464FB /* ScenePaddingEdge.swift in Sources */,
-				FC0425E22935F527000464FB /* PaddingPage.swift in Sources */,
-				FC0425E62935F527000464FB /* GridCellColumnsPage.swift in Sources */,
-				FC0425CA2935F527000464FB /* FixedSizePage.swift in Sources */,
-				FC0425D92935F527000464FB /* AlignmentGuideHorizontalPage.swift in Sources */,
-				FC0425D12935F527000464FB /* OffsetPage.swift in Sources */,
-				FC0425E72935F527000464FB /* GridCellUnsizedAxesPage.swift in Sources */,
-				FC0425C92935F527000464FB /* FrameUIDemo.swift in Sources */,
-				FC0425DA2935F527000464FB /* AlignmentMiddlePage.swift in Sources */,
-				FC0425DE2935F527000464FB /* AlignmentGuideVerticalPage.swift in Sources */,
-				FC0425DD2935F527000464FB /* AlignmentAcrossStackPage.swift in Sources */,
+				FCD1E053293606B600B62149 /* GridCellAchorPage.swift in Sources */,
+				FCD1E04D293606B600B62149 /* ListRowInsetsPage.swift in Sources */,
+				FCD1E036293606B600B62149 /* HiddenPage.swift in Sources */,
+				FCD1E03E293606B600B62149 /* PageRow.swift in Sources */,
+				FCD1E035293606B600B62149 /* LayoutPriorityPage.swift in Sources */,
+				FCD1E03F293606B600B62149 /* SwiftUILayoutGuideApp.swift in Sources */,
+				FCD1E038293606B600B62149 /* ZIndexPage.swift in Sources */,
+				FCD1E04A293606B600B62149 /* PaddingEdgeInsetsPage.swift in Sources */,
+				FCD1E049293606B600B62149 /* PaddingEdgePage.swift in Sources */,
+				FCD1E045293606B600B62149 /* AlignmentBottomPage.swift in Sources */,
+				FCD1E040293606B600B62149 /* AlignmentLastBaseLinePage.swift in Sources */,
+				FCD1E04E293606B600B62149 /* ContentView.swift in Sources */,
+				FCD1E037293606B600B62149 /* OpacityPage.swift in Sources */,
+				FCD1E039293606B600B62149 /* PositionPage.swift in Sources */,
+				FCD1E042293606B600B62149 /* AlignmentTopPage.swift in Sources */,
+				FCD1E052293606B600B62149 /* GridColumnAlignmentPage.swift in Sources */,
+				FCD1E04F293606B600B62149 /* AlignmentGalleryPage.swift in Sources */,
+				FCD1E046293606B600B62149 /* AlignmentFirstBaseLinePage.swift in Sources */,
+				FCD1E041293606B600B62149 /* AlignmentInStackPage.swift in Sources */,
+				FCD1E03A293606B600B62149 /* CoordinateSpacePage.swift in Sources */,
+				FCD1E04B293606B600B62149 /* ScenePaddingEdge.swift in Sources */,
+				FCD1E04C293606B600B62149 /* PaddingPage.swift in Sources */,
+				FCD1E050293606B600B62149 /* GridCellColumnsPage.swift in Sources */,
+				FCD1E034293606B600B62149 /* FixedSizePage.swift in Sources */,
+				FCD1E043293606B600B62149 /* AlignmentGuideHorizontalPage.swift in Sources */,
+				FCD1E03B293606B600B62149 /* OffsetPage.swift in Sources */,
+				FCD1E051293606B600B62149 /* GridCellUnsizedAxesPage.swift in Sources */,
+				FCD1E033293606B600B62149 /* FrameUIDemo.swift in Sources */,
+				FCD1E044293606B600B62149 /* AlignmentMiddlePage.swift in Sources */,
+				FCD1E048293606B600B62149 /* AlignmentGuideVerticalPage.swift in Sources */,
+				FCD1E047293606B600B62149 /* AlignmentAcrossStackPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

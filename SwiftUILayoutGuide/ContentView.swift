@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 Section(header: Text("Size")) {
-                    NavigationLink(destination: FrameUIDemo()) {
+                    NavigationLink(destination: FramePage()) {
                         PageRow(title: "Frame", subTitle: "set frame manual ")
                     }
                     NavigationLink(destination: FixedSizePage()) {
@@ -20,9 +20,6 @@ struct ContentView: View {
                     }
                     NavigationLink(destination: LayoutPriorityPage()) {
                         PageRow(title: "layoutPriority", subTitle: "Sets the priority by which a parent layout should apportion space to this child.")
-                    }
-                    NavigationLink(destination: OpacityPage()) {
-                        PageRow(title: "opacity", subTitle: "Sets the transparency of this view.")
                     }
                     
                 }
@@ -112,6 +109,15 @@ struct ContentView: View {
                     }
                     NavigationLink(destination: AlignmentLastBaseLinePage()) {
                         PageRow(title: "Aligning with Last Text Base Line", subTitle: "[.centerLastTextBaseline, .leadingLastTextBaseline, .trailingLastTextBaseline]")
+                    }
+                }
+                
+                Section(header: Text("View Implementations")) {
+                    NavigationLink(destination: OpacityPage()) {
+                        PageRow(title: "opacity", subTitle: "Sets the transparency of this view.")
+                    }
+                    NavigationLink(destination: OpacityPage()) {
+                        PageRow(title: "hidden", subTitle: "Hides this view unconditionally.")
                     }
                 }
                 

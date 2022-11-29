@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FrameUIDemo: View {
+struct FramePage: View {
     var body: some View {
         VStack{
             Text("Hello, World!  w:100 h:100").frame(width: 100, height: 100).background(Color.red)
@@ -18,8 +18,8 @@ struct FrameUIDemo: View {
     }
 }
 
-struct FrameUIDemo_Previews: PreviewProvider {
+struct FramePage_Previews: PreviewProvider {
     static var previews: some View {
-        FrameUIDemo()
+        FramePage()
     }
 }
