@@ -1,6 +1,6 @@
 //
-//  SwiftUIDemoApp.swift
-//  SwiftUIDemo
+//  SwiftUILayoutGuideApp.swift
+//  SwiftUILayoutGuide
 //
 //  Created by likeecat on 2022/11/28.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct SwiftUIDemoApp: App {
+struct SwiftUILayoutGuideApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
