@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FCD1E033293606B600B62149 /* FrameUIDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E00B293606B500B62149 /* FrameUIDemo.swift */; };
+		FCD1E033293606B600B62149 /* FramePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E00B293606B500B62149 /* FramePage.swift */; };
 		FCD1E034293606B600B62149 /* FixedSizePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E00D293606B500B62149 /* FixedSizePage.swift */; };
 		FCD1E035293606B600B62149 /* LayoutPriorityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E00E293606B500B62149 /* LayoutPriorityPage.swift */; };
 		FCD1E036293606B600B62149 /* HiddenPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E00F293606B500B62149 /* HiddenPage.swift */; };
@@ -31,7 +31,7 @@
 		FCD1E048293606B600B62149 /* AlignmentGuideVerticalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E024293606B500B62149 /* AlignmentGuideVerticalPage.swift */; };
 		FCD1E049293606B600B62149 /* PaddingEdgePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E026293606B500B62149 /* PaddingEdgePage.swift */; };
 		FCD1E04A293606B600B62149 /* PaddingEdgeInsetsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E027293606B500B62149 /* PaddingEdgeInsetsPage.swift */; };
-		FCD1E04B293606B600B62149 /* ScenePaddingEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E028293606B500B62149 /* ScenePaddingEdge.swift */; };
+		FCD1E04B293606B600B62149 /* ScenePaddingEdgePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E028293606B500B62149 /* ScenePaddingEdgePage.swift */; };
 		FCD1E04C293606B600B62149 /* PaddingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E029293606B500B62149 /* PaddingPage.swift */; };
 		FCD1E04D293606B600B62149 /* ListRowInsetsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E02A293606B500B62149 /* ListRowInsetsPage.swift */; };
 		FCD1E04E293606B600B62149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E02C293606B500B62149 /* ContentView.swift */; };
@@ -39,12 +39,12 @@
 		FCD1E050293606B600B62149 /* GridCellColumnsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E02F293606B500B62149 /* GridCellColumnsPage.swift */; };
 		FCD1E051293606B600B62149 /* GridCellUnsizedAxesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E030293606B500B62149 /* GridCellUnsizedAxesPage.swift */; };
 		FCD1E052293606B600B62149 /* GridColumnAlignmentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E031293606B500B62149 /* GridColumnAlignmentPage.swift */; };
-		FCD1E053293606B600B62149 /* GridCellAchorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E032293606B500B62149 /* GridCellAchorPage.swift */; };
+		FCD1E053293606B600B62149 /* GridCellAnchorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E032293606B500B62149 /* GridCellAnchorPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC23B4372934777B001E20ED /* SwiftUILayoutGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILayoutGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCD1E00B293606B500B62149 /* FrameUIDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameUIDemo.swift; sourceTree = "<group>"; };
+		FCD1E00B293606B500B62149 /* FramePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FramePage.swift; sourceTree = "<group>"; };
 		FCD1E00D293606B500B62149 /* FixedSizePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedSizePage.swift; sourceTree = "<group>"; };
 		FCD1E00E293606B500B62149 /* LayoutPriorityPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutPriorityPage.swift; sourceTree = "<group>"; };
 		FCD1E00F293606B500B62149 /* HiddenPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiddenPage.swift; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		FCD1E024293606B500B62149 /* AlignmentGuideVerticalPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlignmentGuideVerticalPage.swift; sourceTree = "<group>"; };
 		FCD1E026293606B500B62149 /* PaddingEdgePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingEdgePage.swift; sourceTree = "<group>"; };
 		FCD1E027293606B500B62149 /* PaddingEdgeInsetsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingEdgeInsetsPage.swift; sourceTree = "<group>"; };
-		FCD1E028293606B500B62149 /* ScenePaddingEdge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenePaddingEdge.swift; sourceTree = "<group>"; };
+		FCD1E028293606B500B62149 /* ScenePaddingEdgePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenePaddingEdgePage.swift; sourceTree = "<group>"; };
 		FCD1E029293606B500B62149 /* PaddingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingPage.swift; sourceTree = "<group>"; };
 		FCD1E02A293606B500B62149 /* ListRowInsetsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRowInsetsPage.swift; sourceTree = "<group>"; };
 		FCD1E02B293606B500B62149 /* SwiftUILayoutGuide.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = SwiftUILayoutGuide.entitlements; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 		FCD1E02F293606B500B62149 /* GridCellColumnsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCellColumnsPage.swift; sourceTree = "<group>"; };
 		FCD1E030293606B500B62149 /* GridCellUnsizedAxesPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCellUnsizedAxesPage.swift; sourceTree = "<group>"; };
 		FCD1E031293606B500B62149 /* GridColumnAlignmentPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridColumnAlignmentPage.swift; sourceTree = "<group>"; };
-		FCD1E032293606B500B62149 /* GridCellAchorPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCellAchorPage.swift; sourceTree = "<group>"; };
+		FCD1E032293606B500B62149 /* GridCellAnchorPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridCellAnchorPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +107,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FC8F0DB929370AA90020AF38 /* ViewImplementations */ = {
+			isa = PBXGroup;
+			children = (
+				FCD1E00F293606B500B62149 /* HiddenPage.swift */,
+				FCD1E010293606B500B62149 /* OpacityPage.swift */,
+			);
+			path = ViewImplementations;
+			sourceTree = "<group>";
+		};
 		FCD1E00A293606B500B62149 /* SwiftUILayoutGuide */ = {
 			isa = PBXGroup;
 			children = (
+				FC8F0DB929370AA90020AF38 /* ViewImplementations */,
 				FCD1E01B293606B500B62149 /* Alignment */,
 				FCD1E02E293606B500B62149 /* Grid */,
 				FCD1E0542936070B00B62149 /* LayerOrder */,
@@ -129,11 +139,9 @@
 		FCD1E00C293606B500B62149 /* Size */ = {
 			isa = PBXGroup;
 			children = (
-				FCD1E00B293606B500B62149 /* FrameUIDemo.swift */,
+				FCD1E00B293606B500B62149 /* FramePage.swift */,
 				FCD1E00D293606B500B62149 /* FixedSizePage.swift */,
 				FCD1E00E293606B500B62149 /* LayoutPriorityPage.swift */,
-				FCD1E00F293606B500B62149 /* HiddenPage.swift */,
-				FCD1E010293606B500B62149 /* OpacityPage.swift */,
 			);
 			path = Size;
 			sourceTree = "<group>";
@@ -178,7 +186,7 @@
 			children = (
 				FCD1E026293606B500B62149 /* PaddingEdgePage.swift */,
 				FCD1E027293606B500B62149 /* PaddingEdgeInsetsPage.swift */,
-				FCD1E028293606B500B62149 /* ScenePaddingEdge.swift */,
+				FCD1E028293606B500B62149 /* ScenePaddingEdgePage.swift */,
 				FCD1E029293606B500B62149 /* PaddingPage.swift */,
 				FCD1E02A293606B500B62149 /* ListRowInsetsPage.swift */,
 			);
@@ -191,7 +199,7 @@
 				FCD1E02F293606B500B62149 /* GridCellColumnsPage.swift */,
 				FCD1E030293606B500B62149 /* GridCellUnsizedAxesPage.swift */,
 				FCD1E031293606B500B62149 /* GridColumnAlignmentPage.swift */,
-				FCD1E032293606B500B62149 /* GridCellAchorPage.swift */,
+				FCD1E032293606B500B62149 /* GridCellAnchorPage.swift */,
 			);
 			path = Grid;
 			sourceTree = "<group>";
@@ -274,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD1E053293606B600B62149 /* GridCellAchorPage.swift in Sources */,
+				FCD1E053293606B600B62149 /* GridCellAnchorPage.swift in Sources */,
 				FCD1E04D293606B600B62149 /* ListRowInsetsPage.swift in Sources */,
 				FCD1E036293606B600B62149 /* HiddenPage.swift in Sources */,
 				FCD1E03E293606B600B62149 /* PageRow.swift in Sources */,
@@ -294,14 +302,14 @@
 				FCD1E046293606B600B62149 /* AlignmentFirstBaseLinePage.swift in Sources */,
 				FCD1E041293606B600B62149 /* AlignmentInStackPage.swift in Sources */,
 				FCD1E03A293606B600B62149 /* CoordinateSpacePage.swift in Sources */,
-				FCD1E04B293606B600B62149 /* ScenePaddingEdge.swift in Sources */,
+				FCD1E04B293606B600B62149 /* ScenePaddingEdgePage.swift in Sources */,
 				FCD1E04C293606B600B62149 /* PaddingPage.swift in Sources */,
 				FCD1E050293606B600B62149 /* GridCellColumnsPage.swift in Sources */,
 				FCD1E034293606B600B62149 /* FixedSizePage.swift in Sources */,
 				FCD1E043293606B600B62149 /* AlignmentGuideHorizontalPage.swift in Sources */,
 				FCD1E03B293606B600B62149 /* OffsetPage.swift in Sources */,
 				FCD1E051293606B600B62149 /* GridCellUnsizedAxesPage.swift in Sources */,
-				FCD1E033293606B600B62149 /* FrameUIDemo.swift in Sources */,
+				FCD1E033293606B600B62149 /* FramePage.swift in Sources */,
 				FCD1E044293606B600B62149 /* AlignmentMiddlePage.swift in Sources */,
 				FCD1E048293606B600B62149 /* AlignmentGuideVerticalPage.swift in Sources */,
 				FCD1E047293606B600B62149 /* AlignmentAcrossStackPage.swift in Sources */,

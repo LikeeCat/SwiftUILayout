@@ -59,3 +59,40 @@
 	- [hidden](#hidden)
 
 
+
+<h2 id="Size">Size</h2>
+<h4 id="frame">frame</h4>
+frame contains 2 Api<br>
+		
+	//Positions this view within an invisible frame with the specified size.
+	func frame(width: CGFloat,height: CGFloat,alignment: Alignment) -> some View<br>
+
+	//Positions this view within an invisible frame having the specified size constraints.
+	func frame(minWidth: CGFloat,idealWidth: CGFloat,maxWidth: CGFloat,minHeight: CGFloat,idealHeight: CGFloat,maxHeight: CGFloat,alignment: Alignment) -> some View
+
+```
+
+Example:
+
+```swift
+        VStack{
+            Text("frame(width:100,height:100)").font(.title2).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding()
+            Text("Hello, World!  w:100 h:100").frame(width: 100, height: 100).background(Color.red)
+            
+            Text("frame(width:100,height:100,alignment:.leading)").font(.title2).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding()
+            Text("Hello, World!  w:100 h:100").frame(width: 100, height: 100, alignment:.leading).background(Color.green)
+            
+            Text("frame(minWidth: 20,idealWidth: 100, maxWidth: CGFloat.infinity,minHeight: 40,alignment: .leading)").font(.title2).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding()
+            Text("Hello, World!  w:100 h:100").frame(minWidth: 20,idealWidth: 100, maxWidth: CGFloat.infinity,minHeight: 40,alignment: .leading).background(Color.blue)
+        }
+```
+
+<details close>
+  <summary>View running results</summary>
+  <img width="100%" src="Assect/demo/frame_page.png"/>
+</details>
+
+ 
+> HStack and VStack controls are used to host multiple views, as mentioned later.
+
+[🔝](#Text_D)

@@ -63,7 +63,7 @@ struct ContentView: View {
                     NavigationLink(destination: ListRowInsetsPage()) {
                         PageRow(title: "listRowInsets", subTitle: "Applies an inset to the rows in a list.")
                     }
-                    NavigationLink(destination: ScenePaddingEdge()) {
+                    NavigationLink(destination: ScenePaddingEdgePage()) {
                         PageRow(title: "scenePadding edge", subTitle: "Adds padding to the specified edges of this view using an amount that’s appropriate for the current scene.")
                     }
                     
@@ -73,7 +73,7 @@ struct ContentView: View {
                     NavigationLink(destination: GridCellColumnsPage()) {
                         PageRow(title: "gridCellColumns", subTitle: "Tells a view that acts as a cell in a grid to span the specified number of columns.")
                     }
-                    NavigationLink(destination: GridCellAchorPage()) {
+                    NavigationLink(destination: GridCellAnchorPage()) {
                         PageRow(title: "gridCellAnchor", subTitle: "Specifies a custom alignment anchor for a view that acts as a grid cell.")
                     }
                     NavigationLink(destination: GridCellUnsizedAxesPage()) {
@@ -116,7 +116,7 @@ struct ContentView: View {
                     NavigationLink(destination: OpacityPage()) {
                         PageRow(title: "opacity", subTitle: "Sets the transparency of this view.")
                     }
-                    NavigationLink(destination: OpacityPage()) {
+                    NavigationLink(destination:  HiddenPage()) {
                         PageRow(title: "hidden", subTitle: "Hides this view unconditionally.")
                     }
                 }

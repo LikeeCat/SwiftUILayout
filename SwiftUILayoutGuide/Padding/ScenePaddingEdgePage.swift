@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ScenePaddingEdge: View {
+struct ScenePaddingEdgePage: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             Text("Scene padding")
@@ -25,6 +25,6 @@ struct ScenePaddingEdge: View {
 
 struct ScenePaddingEdge_Previews: PreviewProvider {
     static var previews: some View {
-        ScenePaddingEdge()
+        ScenePaddingEdgePage()
     }
 }

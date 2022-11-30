@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GridCellAchorPage: View {
+struct GridCellAnchorPage: View {
     var body: some View {
         VStack{
             Text("UnitPoint x: 0.25, y: 0.75").font(.title3).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
@@ -58,6 +58,6 @@ struct GridCellAchorPage: View {
 
 struct GridCellAchorPage_Previews: PreviewProvider {
     static var previews: some View {
-        GridCellAchorPage()
+        GridCellAnchorPage()
     }
 }

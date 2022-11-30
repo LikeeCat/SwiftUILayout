@@ -10,7 +10,7 @@ import SwiftUI
 struct HiddenPage: View {
     var body: some View {
         VStack{
-            Text("nomal").font(.title2).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
+            Text("nomal").font(.title2).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding()
 
             HStack {
                 Image(systemName: "a.circle.fill")
@@ -21,7 +21,7 @@ struct HiddenPage: View {
             
             Divider()
             
-            Text("set hidden").font(.title2).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
+            Text("set hidden").font(.title2).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding()
             
             HStack {
                 Image(systemName: "a.circle.fill")
