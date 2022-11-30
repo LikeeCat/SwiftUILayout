@@ -70,12 +70,10 @@ frame contains 2 Api<br>
 	//Positions this view within an invisible frame having the specified size constraints.
 	func frame(minWidth: CGFloat,idealWidth: CGFloat,maxWidth: CGFloat,minHeight: CGFloat,idealHeight: CGFloat,maxHeight: CGFloat,alignment: Alignment) -> some View
 
-```
-
 Example:
 
 ```swift
-        VStack{
+    VStack{
             Text("frame(width:100,height:100)").font(.title2).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding()
             Text("Hello, World!  w:100 h:100").frame(width: 100, height: 100).background(Color.red)
             
@@ -89,10 +87,7 @@ Example:
 
 <details close>
   <summary>View running results</summary>
-  <img width="100%" src="Assect/demo/frame_page.png"/>
+  <img  src="Assect/demo/frame_page.png"/>
 </details>
 
- 
-> HStack and VStack controls are used to host multiple views, as mentioned later.
-
-[🔝](#Text_D)
+[🔝](#Size)
