@@ -60,11 +60,11 @@ struct ContentView: View {
                     NavigationLink(destination: PaddingEdgeInsetsPage()) {
                         PageRow(title: "padding  edge insets ", subTitle: "Adds a different padding amount to each edge of this view.")
                     }
-                    NavigationLink(destination: ListRowInsetsPage()) {
-                        PageRow(title: "listRowInsets", subTitle: "Applies an inset to the rows in a list.")
-                    }
                     NavigationLink(destination: ScenePaddingEdgePage()) {
                         PageRow(title: "scenePadding edge", subTitle: "Adds padding to the specified edges of this view using an amount that’s appropriate for the current scene.")
+                    }
+                    NavigationLink(destination: ScenePaddingScenePaddingPage()) {
+                        PageRow(title: "scenePadding with scene padding edge", subTitle: "Adds a specified kind of padding to the specified edges of this view using an amount that’s appropriate for the current scene.")
                     }
                     
                 }

@@ -13,10 +13,13 @@ struct PositionPage: View {
             Text("Position by passing the x and y coordinates")
                 .position(x: 10, y: 100)
                 .border(Color.gray)
+            Spacer().frame(height: 50)
+            Text("Position by passing a CGPoint()")
+                .position(CGPoint(x: 10, y: 100))
+                .border(Color.red)
         }
         .frame(width: 200,height: 200)
         .padding()
-        .border(Color.blue, width: 1)
 
     }
 }

@@ -13,6 +13,12 @@ struct OffsetPage: View {
             .border(Color.red)
             .offset(x: 20, y: 50)
             .border(Color.gray)
+        Spacer().frame(height: 80)
+        Text("Offset by passing CGSize()")
+            .border(Color.green)
+            .offset(CGSize(width: 20, height: 25))
+            .border(Color.gray)
+
     }
 }
 

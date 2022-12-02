@@ -11,18 +11,22 @@ struct FixedSizePage: View {
     var body: some View {
         VStack{
             Text("nomal size")
-                .font(.title2)
                 .frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading)
                 .padding(.all)
             Text("A single line of text, too long to fit in a box.")
-                .frame(width: 200, height: 200)
+                .frame(width: 100, height: 100)
                 .border(Color.gray)
             Text("fixed size")
-                .font(.title2)
                 .frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
             Text("A single line of text, too long to fit in a box.")
                 .fixedSize()
-                .frame(width: 200, height: 200)
+                .frame(width: 100, height: 100)
+                .border(Color.gray)
+            Text("fixedSize(horizontal:vertical:)")
+                .frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
+            Text("A single line of text, too long to fit in a box.")
+                .fixedSize(horizontal: true, vertical: false)
+                .frame(width: 100, height: 100)
                 .border(Color.gray)
 
         }

@@ -10,7 +10,7 @@ import SwiftUI
 struct GridCellAnchorPage: View {
     var body: some View {
         VStack{
-            Text("UnitPoint x: 0.25, y: 0.75").font(.title3).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
+            Text("UnitPoint x: 0.25, y: 0.75").frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
             Grid(horizontalSpacing: 1, verticalSpacing: 1) {
                 GridRow {
                     Color.red.frame(width: 60, height: 60)
@@ -23,7 +23,7 @@ struct GridCellAnchorPage: View {
                 }
             }
             
-            Text(".topTrailing").font(.title3).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
+            Text(".topTrailing").frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
             Grid(horizontalSpacing: 1, verticalSpacing: 1) {
                 GridRow {
                     Color.red.frame(width: 60, height: 60)
@@ -36,7 +36,7 @@ struct GridCellAnchorPage: View {
                 }
             }
             
-            (Text(".center").font(.title3) + Text(" use gridCellColumns  for merged cells").font(.caption)).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
+            (Text(".center") + Text(" use gridCellColumns  for merged cells").font(.caption)).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
             Grid(alignment: .center, horizontalSpacing: 1, verticalSpacing: 1) {
                 GridRow {
                     Color.red.frame(width: 60, height: 60)
@@ -49,8 +49,6 @@ struct GridCellAnchorPage: View {
                         .gridCellColumns(2)
                 }
             }
-
-
 
         }
     }

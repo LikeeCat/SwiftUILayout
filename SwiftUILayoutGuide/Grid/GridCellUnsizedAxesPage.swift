@@ -10,7 +10,7 @@ import SwiftUI
 struct GridCellUnsizedAxesPage: View {
     var body: some View {
         VStack{
-            Text("nomal").font(.title3).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding()
+            Text("nomal").frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding()
             Grid {
                 GridRow {
                     Text("Hello")
@@ -22,7 +22,7 @@ struct GridCellUnsizedAxesPage: View {
                     Text("World")
                 }
             }.border(.blue)
-            Text("Divider.gridCellUnsizedAxes").font(.title3).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding()
+            Text("Divider.gridCellUnsizedAxes").frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding()
             Grid {
                 GridRow {
                     Text("Hello")

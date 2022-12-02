@@ -15,7 +15,7 @@ struct OpacityPage: View {
                             .zIndex(1)
                 Color.red.frame(width: 100, height: 100, alignment: .center)
                             .padding(-40)
-                Text("nomal").font(.title3).frame(width: 70,height: 50).padding(60)
+                Text("nomal").frame(width: 70,height: 50).padding(60)
 
             }
             VStack {
@@ -24,9 +24,8 @@ struct OpacityPage: View {
                             .opacity(0.5)
                 Color.red.frame(width: 100, height: 100, alignment: .center)
                             .padding(-40)
-                Text("set opacity").font(.title3).frame(width: 70,height: 50).padding(60)
+                Text("set opacity").frame(width: 70,height: 50).padding(60)
             }
-            
         }
     }
 

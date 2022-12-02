@@ -11,7 +11,7 @@ struct AlignmentAcrossStackPage: View {
     var body: some View {
         VStack{
             // basic alignment(default)
-            Text("basic alignment").font(.title2).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
+            Text("basic alignment").frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
             HStack {
                 VStack{
                     Image(systemName: "mic").frame(width: 50,height: 50)
@@ -32,7 +32,7 @@ struct AlignmentAcrossStackPage: View {
             Spacer().frame(minHeight: 10,maxHeight: 40)
             
             // custom alignment(default)
-            Text("custom alignment").font(.title2).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
+            Text("custom alignment").frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
             HStack(alignment: .imageTitleAlignmentGuide) {
                 VStack{
                     Image(systemName: "mic").frame(width: 50,height: 50)

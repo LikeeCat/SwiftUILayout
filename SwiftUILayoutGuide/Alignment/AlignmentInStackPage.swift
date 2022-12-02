@@ -11,7 +11,7 @@ struct AlignmentInStackPage: View {
     var body: some View {
         VStack{
             // basic alignment(default)
-            Text("basic alignment").font(.title2).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
+            Text("basic alignment").frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
             HStack {
                 Image(systemName: "mic")
                 Text("Connecting")
@@ -24,7 +24,7 @@ struct AlignmentInStackPage: View {
             Spacer().frame(minHeight: 10,maxHeight: 40)
             
             // firstTextBaseline
-            Text("firstTextBaseline").font(.title2).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
+            Text("firstTextBaseline").frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
             HStack(alignment: .firstTextBaseline) {
                 Image(systemName: "mic")
                 Text("Connecting")
@@ -38,7 +38,7 @@ struct AlignmentInStackPage: View {
             Spacer().frame(minHeight: 10,maxHeight: 40)
             
             //Adjust the alignment of individual views within a stack
-            Text("adjust the alignment of individual views within a stack").font(.title2).frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
+            Text("adjust the alignment of individual views within a stack").frame(minWidth: 30,maxWidth: CGFloat.infinity,alignment: .leading).padding(.all)
             HStack(alignment: .firstTextBaseline) {
                 Image(systemName: "mic")
                     .alignmentGuide(.firstTextBaseline) { context in

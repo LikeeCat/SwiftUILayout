@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC8F0DBB2939DE6E0020AF38 /* ScenePaddingScenePaddingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8F0DBA2939DE6E0020AF38 /* ScenePaddingScenePaddingPage.swift */; };
 		FCD1E033293606B600B62149 /* FramePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E00B293606B500B62149 /* FramePage.swift */; };
 		FCD1E034293606B600B62149 /* FixedSizePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E00D293606B500B62149 /* FixedSizePage.swift */; };
 		FCD1E035293606B600B62149 /* LayoutPriorityPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD1E00E293606B500B62149 /* LayoutPriorityPage.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		FC23B4372934777B001E20ED /* SwiftUILayoutGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILayoutGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8F0DBA2939DE6E0020AF38 /* ScenePaddingScenePaddingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenePaddingScenePaddingPage.swift; sourceTree = "<group>"; };
 		FCD1E00B293606B500B62149 /* FramePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FramePage.swift; sourceTree = "<group>"; };
 		FCD1E00D293606B500B62149 /* FixedSizePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedSizePage.swift; sourceTree = "<group>"; };
 		FCD1E00E293606B500B62149 /* LayoutPriorityPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutPriorityPage.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				FCD1E028293606B500B62149 /* ScenePaddingEdgePage.swift */,
 				FCD1E029293606B500B62149 /* PaddingPage.swift */,
 				FCD1E02A293606B500B62149 /* ListRowInsetsPage.swift */,
+				FC8F0DBA2939DE6E0020AF38 /* ScenePaddingScenePaddingPage.swift */,
 			);
 			path = Padding;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				FCD1E046293606B600B62149 /* AlignmentFirstBaseLinePage.swift in Sources */,
 				FCD1E041293606B600B62149 /* AlignmentInStackPage.swift in Sources */,
 				FCD1E03A293606B600B62149 /* CoordinateSpacePage.swift in Sources */,
+				FC8F0DBB2939DE6E0020AF38 /* ScenePaddingScenePaddingPage.swift in Sources */,
 				FCD1E04B293606B600B62149 /* ScenePaddingEdgePage.swift in Sources */,
 				FCD1E04C293606B600B62149 /* PaddingPage.swift in Sources */,
 				FCD1E050293606B600B62149 /* GridCellColumnsPage.swift in Sources */,

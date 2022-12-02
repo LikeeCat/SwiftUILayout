@@ -13,14 +13,16 @@ struct LayoutPriorityPage: View {
             Text("This is a moderately long string.")
                 .font(.largeTitle)
                 .border(Color.gray)
-
+            
             Spacer()
-
+            
             Text("This is a higher priority string.")
                 .font(.largeTitle)
                 .layoutPriority(1)
                 .border(Color.gray)
-        }    }
+        }
+        
+    }
 }
 
 struct LayoutPriorityPage_Previews: PreviewProvider {

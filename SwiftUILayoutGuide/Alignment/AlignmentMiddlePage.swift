@@ -24,24 +24,6 @@ struct AlignmentMiddlePage: View {
     }
 }
 
-//private struct BackgroundView: View {
-//    var body: some View {
-//        Grid(horizontalSpacing: 0, verticalSpacing: 0) {
-//            GridRow {
-//                Text("Some text in an upper quadrant")
-//                Color.gray.opacity(0.3)
-//            }
-//            GridRow {
-//                Color.gray.opacity(0.3)
-//                Text("More text in a lower quadrant")
-//            }
-//        }
-//        .aspectRatio(1, contentMode: .fit)
-//        .foregroundColor(.secondary)
-//        .border(.gray)
-//    }
-//}
-
 struct AlignmentMiddlePage_Previews: PreviewProvider {
     static var previews: some View {
         AlignmentMiddlePage()
